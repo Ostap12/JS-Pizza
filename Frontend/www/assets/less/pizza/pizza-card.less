@@ -3,8 +3,34 @@
     max-width: 250px;
   }
 
-  h3 {
-    color: @mainColor;
-    background-color: lighten(@mainColor, 45%);
+  .pizza-label{
+    position: absolute;
+    top: -35px;
+    right: 0;
   }
+
+  h3 {
+    color: @color_style;
+    background-color: lighten(@color_style, 45%);
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  .type {
+    color: #DBD6D6;
+  }
+
+  .large-pizza, .small-pizza {
+    text-align: center;
+    img {
+      margin-right: 5px
+    }
+  }
+
+  min-width: 280px;
+
+  .price h2{
+    margin-bottom: 0;
+  }
+
 }
